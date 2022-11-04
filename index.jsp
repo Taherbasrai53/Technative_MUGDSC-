@@ -22,7 +22,7 @@
             <button class="form__button" type="submit">Continue</button>
 
             <p class="form__text">
-                <a class="form__link" href="signup.html" id="linkCreateAccount">Don't have an account? Create account</a>
+                <a class="form__link" href="signup.jsp" id="linkCreateAccount">Don't have an account? Create account</a>
             </p>
         </form>
         <form class="form form--hidden" id="createAccount">
