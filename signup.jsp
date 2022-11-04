@@ -34,7 +34,7 @@
             <button class="form__button" type="submit">Sign Up</button>
 
             <p class="form__text">
-                <a class="form__link" href="hometrial.html" id="linkCreateAccount">Already have an account? Sign in</a>
+                <a class="form__link" href="index.jsp" id="linkCreateAccount">Already have an account? Sign in</a>
             </p>
         </form>
         <form class="form form--hidden" id="createAccount">
