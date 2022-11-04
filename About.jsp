@@ -31,22 +31,45 @@
         <div class="liw">
 
 
-          <iframe width="420" height="310" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
-    </iframe>
+          
 
 
 
-                <div class="liw">
+                <div class="nflp">
+                    <br>
+<h3>
+    NO FRANCHISE = LOW PRICING
+</h3>
+</div>
+
+<div class="textIntro">
+    
+        <h4>
+            We are a locally-owned company providing quality service to home and business owners in Chicago and the surrounding areas.<br> We specialize in removal of junk from homes, construction sites, garages, warehouses – basically anywhere you have JUNK. <br>We do all the loading and clean-up so that you don’t have to.
+        </h4>
+    
+</div>
+
+<div class="health">
+    <h3>
+        YOUR HEALTH IS OUR PRIORITY
+    </h3>
+</div>
+
+<div class="video">
+        Garbage disposal is a major pain point for all households to deal with every day. However, if you take a look at your garbage,<br> you will most probably find that half of it could go into compost. Composting is easy and can be done by anyone in your <br>household without much effort.
+        <br>We hope this video can help you to take a step closer to bio degradable garbage disposal.
+   <br><br>
+        
+</div>
+
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mDIVpJgjoXQ" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
 
 
-<h4>
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham
-</h4>
-
-
-                </div>
+                
                     </div>
                 </div>
         </div>
