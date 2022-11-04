@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Webpage Design</title>
-    <link rel="stylesheet" href="home1.css">
+    <title>About</title>
+    <link rel="stylesheet" href="login_assets/css/home1.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
 
@@ -14,11 +15,22 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="Home.jsp">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">PAYMENTS</a></li>
                     <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">LOG OUT</a></li>
+                    <li>
+                     <div class="dropdown">
+                     <button class="dropbtn"><i class='fas fa-user-alt'></i>
+                     
+                     </button>
+                        <div class="dropdown-content">
+                        <a href="#">Profile</a>
+                        <a href="#">History</a>
+                        <a href="JSP/logout.jsp">Logout</a>
+                        </div>
+                    </div>
+                    </li>
                 </ul>
             </div>
 
