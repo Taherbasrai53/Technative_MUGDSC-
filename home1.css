@@ -244,14 +244,7 @@ ul li a:hover{
     text-decoration: none;
     color: #428480;
 }
-.liw{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    text-align: center;
-    color: #428480;
-    font-family: sans-serif;
-    flex-direction: column;
-}
+
 .icons a{
     text-decoration: none;
     color: #F3D251;
@@ -313,4 +306,53 @@ ul li a:hover{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+}
+
+
+.intro {
+    color: #428480;
+    padding-left: 20px;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 15px    
+}
+
+.nflp{
+    padding-top: 15px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #D66263;
+}
+
+.textIntro{
+    padding-top: 15px;
+    padding-bottom: 3px;
+    text-align: left;
+    padding-left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #AACEA0;
+}
+
+.health{
+    padding-top: 15px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    color: #D66263;
+}
+
+.video{
+    padding-top: 15px;
+    padding-bottom: 3px;
+    text-align: left;
+    padding-left: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #AACEA0;
+    
 }
