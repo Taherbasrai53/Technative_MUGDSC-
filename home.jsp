@@ -32,6 +32,13 @@
 
 
             <h1>Garbage Collection<br><span>Disposal</span> <br>and Devolopment .</h1>
+            <br><br><br>
+
+                <div class="intro">
+                    <h3>Timely garbage collection is also important as much as merely collection. <br>GARBAGE WALA   integrates  garbage  transportation  for  needy  onto   a 
+                    <br>mobile technology platform ensuring convenient, transparent, and quick<br> service fulfillment.</h3> 
+                </div>
+            
 
 
 
