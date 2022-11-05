@@ -84,4 +84,75 @@ public class uDAO {
             }
             return u;
       }
+      public boolean updateUser(uDTO u)
+    {
+        boolean result = false;
+        if(con != null)
+        {
+         try
+        {
+        String sql = "update user set uname=?,uaddress=?,upincode=? where uphone=?" ;
+        PreparedStatement ps = con.prepareStatement(sql);
+        
+        ps.setString(1, u.getUname());
+        ps.setString(2, u.getUaddress());
+        ps.setString(3, u.getUpincode());
+        ps.setString(4, u.getUphone());
+        
+        int res = ps.executeUpdate();
+        if(res>0)
+        {
+            result = true;
+        }
+        
+      }
+      catch(Exception ex)
+      {
+        System.out.println("Update User : "+ex.toString());
+      }
+    }
+    else
+    {
+        System.out.println("Update Connection Failed...");
+    }
+    return result;
+  }
+      public uDTO Data(String uphone)
+      {
+           uDTO u = null;
+            if (con!=null)
+            {
+                try
+                {
+                    String sql = "select * from user where uphone = ?";
+                    PreparedStatement ps = con.prepareStatement(sql);
+        
+                    ps.setString(1, uphone);
+        
+                    ResultSet res = ps.executeQuery();
+                    if(res.next())
+                    {
+               
+                        int uid = res.getInt("uid");
+                        String uname = res.getString("uname");
+                        String umobile = res.getString("uphone");
+                        String password = res.getString("password");
+                        String uaddress = res.getString("uaddress");
+                        String upin = res.getString("upincode");
+               
+               
+                        u = new uDTO(uid, uname, password, umobile, uaddress, upin);
+                    }
+                }
+                catch(Exception ex)
+                {
+                    System.out.println("Data exception: "+ex.toString());
+                }
+            }
+            else
+            {
+                System.out.println("Data Connection problem");
+            }
+            return u;
+      }
 }
